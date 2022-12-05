@@ -1,0 +1,50 @@
+/* table,
+td,
+th {
+    border: 1px solid black;
+} */
+body{
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+table {
+    /* width: 25%; */
+    text-align: center;
+    margin: auto;
+
+}
+
+td {
+    height: 65px;
+    width: 65px;
+    font-size: 25px;
+    background-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+select{
+    width: 50px;
+}
+
+label{
+   font-size: 20px; 
+}
+
+h2{
+    text-align: left;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.div-size{
+    margin-bottom: 20px;
+}
