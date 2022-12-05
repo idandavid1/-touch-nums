@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>touch-num</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="initGame()">
+    <h1>touch-num</h1>
+    <div class="div-size">
+        <label>Choose board size:</label>
+        <select class="size" onchange="changeBoardSize(this)">
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+        </select>
+    </div>
+    <div class="button">
+        <button onclick="initGame()">New Game</button>
+    </div>
+    <div>
+        <h2>Next Number: <span class="next-num"></span></h2>
+    </div>
+    <div>
+        <h2>Game Time: <span class="game-time"></span></h2>
+    </div>
+    <div>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
